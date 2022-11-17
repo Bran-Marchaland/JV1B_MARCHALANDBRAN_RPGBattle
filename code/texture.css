@@ -82,6 +82,14 @@ label {
     font-size: 1rem;
 }
 
-progress{
-    background-color: rgb(234,55,17)
-}
+
+progress[value] {
+    /* Reset the default appearance */
+    -webkit-appearance: none;
+     appearance: none;
+  }
+
+
+  progress[value]::-webkit-progress-value {
+    background-color: red;
+  }
