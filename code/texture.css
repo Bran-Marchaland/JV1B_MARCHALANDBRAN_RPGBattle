@@ -1,0 +1,87 @@
+html{
+    background-color: black;
+}
+
+#ecranP{
+    background-color: burlywood;
+    height: 700px;
+    width: 2545px;
+
+}
+#ecranS{
+    background-color: burlywood;
+    height: 150px;
+    width: 2550px;
+    margin-top: 50px;
+}
+
+#action_1{
+    background-color: blue;
+    color:white;
+    margin-top: 50px;
+    margin-left: 120px;
+    border:2px solid red;
+    float: left;
+    width:18%;
+    text-align:center;
+    font-weight: bolder;
+    line-height: 4;
+}
+
+#action_2{
+    background-color: blue;
+    margin-top: 50px;
+    color:white;
+    border:2px solid red;
+    float: left;
+    width:18%;
+    text-align:center;
+    font-weight: bolder;
+    line-height: 4;
+}
+
+#action_3{
+    background-color: blue;
+    margin-top: 50px;
+    color:white;
+    border:2px solid red;
+    float: left;
+    width:18%;
+    text-align:center;
+    font-weight: bolder;
+    line-height: 4;
+
+}
+
+#action_4{
+    background-color: blue;
+    margin-top: 50px;
+    color:white;
+    border:2px solid red;
+    float: left;
+    width:18%;
+    text-align:center;
+    font-weight: bolder;
+    line-height: 4;
+}
+
+#action_5{
+    background-color: blue;
+    margin-top: 50px;
+    color:white;
+    border:2px solid red;
+    float: left;
+    width:18%;
+    text-align:center;
+    font-weight: bolder;
+    line-height: 4;
+}
+
+label {
+    padding-right: 10px;
+    font-size: 1rem;
+}
+
+progress{
+    background-color: rgb(234,55,17)
+}
