@@ -1,3 +1,11 @@
+
+
+
+
+
+
+/*------------------élément principale------------------*/
+
 html{
     background-color: black;
 }
@@ -6,8 +14,8 @@ html{
     background-color: burlywood;
     height: 700px;
     width: 2545px;
-
 }
+
 #ecranS{
     background-color: burlywood;
     height: 150px;
@@ -83,13 +91,26 @@ label {
 }
 
 
+/*------------------élément barre de vie------------------*/
+
+
 progress[value] {
-    /* Reset the default appearance */
+    /* Réinitialisation par défaut */
     -webkit-appearance: none;
      appearance: none;
-  }
+}
 
 
-  progress[value]::-webkit-progress-value {
+progress[value]::-webkit-progress-value {
     background-color: red;
-  }
+}
+
+#PvH1{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#bPvM1{
+    margin-left: 2060px;
+    margin-top: 20px;
+}
