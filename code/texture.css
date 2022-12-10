@@ -16,73 +16,65 @@ html{
     width: 2545px;
 }
 
+#log{
+    background-color: black;
+    color: white;
+    height: 130px;
+    width: 1350px;
+    margin-left: 650px;
+}
+
+.scroller {
+    width: 300px;
+    height: 100px;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
+}
+  
+
 #ecranS{
     background-color: burlywood;
-    height: 150px;
+    height: 120px;
     width: 2550px;
-    margin-top: 50px;
 }
 
-#action_1{
+#attaque{
     background-color: blue;
     color:white;
-    margin-top: 50px;
-    margin-left: 120px;
+    margin-top: 25px;
+    margin-left: 320px;
     border:2px solid red;
     float: left;
-    width:18%;
+    width:25%;
     text-align:center;
     font-weight: bolder;
     line-height: 4;
 }
 
-#action_2{
+#defense{
     background-color: blue;
-    margin-top: 50px;
+    margin-top: 25px;
     color:white;
     border:2px solid red;
     float: left;
-    width:18%;
+    width:25%;
     text-align:center;
     font-weight: bolder;
     line-height: 4;
 }
 
-#action_3{
+#soin{
     background-color: blue;
-    margin-top: 50px;
+    margin-top: 25px;
     color:white;
     border:2px solid red;
     float: left;
-    width:18%;
+    width:25%;
     text-align:center;
     font-weight: bolder;
     line-height: 4;
 
-}
-
-#action_4{
-    background-color: blue;
-    margin-top: 50px;
-    color:white;
-    border:2px solid red;
-    float: left;
-    width:18%;
-    text-align:center;
-    font-weight: bolder;
-    line-height: 4;
-}
-
-#action_5{
-    background-color: blue;
-    margin-top: 50px;
-    color:white;
-    border:2px solid red;
-    float: left;
-    width:18%;
-    text-align:center;
-    font-weight: bolder;
-    line-height: 4;
 }
 
 label {
@@ -93,24 +85,87 @@ label {
 
 /*------------------élément barre de vie------------------*/
 
+#affichage_stats{
+    background-color: cadetblue;
+    height: 100px;
+    width: 500px;
+    position: absolute;
+    top:608px;
+    left:1040px;
 
-progress[value] {
-    /* Réinitialisation par défaut */
-    -webkit-appearance: none;
-     appearance: none;
 }
 
 
-progress[value]::-webkit-progress-value {
+#affichage_pv{
+    visibility: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+#affichage_mana{ 
+    visibility: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+/*  progress[value] {
+       -webkit-appearance: none;
+    appearance: none;
+}
+   
+  
+    progress[value]::-webkit-progress-value {
     background-color: red;
-}
+    }
+*/
 
-#PvH1{
-    margin-left: 20px;
-    margin-top: 20px;
+#pvH1{
+     margin-left: 20px;
+     margin-top: 20px;
 }
-
+ 
 #bPvM1{
-    margin-left: 2060px;
-    margin-top: 20px;
+     margin-left: 2060px;
+     margin-top: 20px;
+}
+
+
+.personnageType1{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    margin-right: auto;
+
+}
+
+.personnageType2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin-left: auto;
+}
+
+/*------------------affichage------------------*/
+
+
+#L{
+    height: 20px;
+    width: 50px;
+    background-color: white;
+
+}
+
+#XL{
+    height: 20px;
+    width: 50px;
+    background-color: white;
+}
+
+#XXL{
+    height: 20px;
+    width: 50px;
+    background-color: white;
 }
